@@ -1,22 +1,66 @@
 /* --- Global Reset ---*/
 @import "normalize.css";
 
+/* Colors
+#472839 main purple
+#bfc94c secondary color
+#7d324e secondary purple
+#e6b1c4 pink */
+
+body{
+	font-family: "myriad pro", sans-serif;
+	}
+	
+header{
+	background-color: #472839;
+	height: 123px;
+	}
+
 nav{
 	float: right;
-	margin: 0 0 0 10px;
+	margin: 40px 0 0 10px;
 	}
 nav ul li{
 	display: inline-block;
 	margin: 0 0 0 10px;
+	background-color: #7d324e;
+	height: 49px;
+	border-right: solid 1px #fff;
 	}
 nav ul{
 	margin: -40px 30px 0 0;
+	background-color: #7d324e;
 	}
 nav a{
 	text-decoration: none;
-	color: #000;
+	color: #bfc94c;
+	padding: 0 80px 0 0;
+	}
+	
+h2{
+	color: #472839;
 	}
 	
 article{
 	clear: both;
+	width: 670px;
+	float: right;
+	margin: 0 140px 0 0;
+	}
+article a{
+	float: right;
+	color: #bfc94c;
+	}
+	
+aside{
+	background-color: #472839;
+	width: 162px;
+	text-align: center;
+	color: #bfc94c;
+	margin: 0 0 0 10px;
+	}
+	
+footer{
+	background-color: #472839;
+	height: 171px;
 	}
