@@ -41,7 +41,7 @@ h2{
 	color: #472839;
 	}
 	
-article{
+article, section{
 	clear: both;
 	width: 670px;
 	float: right;
@@ -59,6 +59,19 @@ aside{
 	color: #bfc94c;
 	margin: 0 0 0 10px;
 	}
+aside a{
+	color: #bfc94c;
+	text-decoration: none;
+	}
+/* -----------------Images----------------------	 */
+#feature{
+	margin: 50px 0 0;
+	}
+	
+.gallery{
+	border: solid 3px black;
+	}
+/* -----------------Images------------------------- */
 	
 footer{
 	background-color: #472839;
