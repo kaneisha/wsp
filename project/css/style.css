@@ -9,6 +9,7 @@
 
 body{
 	font-family: "myriad pro", sans-serif;
+	background: url(../images/bg_floral.jpg);
 	}
 	
 header{
@@ -17,47 +18,57 @@ header{
 	}
 
 nav{
-	float: right;
-	margin: 40px 0 0 10px;
+	margin: 0;
+	padding: 0;
+	width: 960px;
 	}
 nav ul li{
 	display: inline-block;
-	margin: 0 0 0 10px;
 	background-color: #7d324e;
 	height: 49px;
 	border-right: solid 1px #fff;
 	}
 nav ul{
-	margin: -40px 30px 0 0;
+	margin: 0;
+	padding: 0;
 	background-color: #7d324e;
+	width: 100%;
 	}
 nav a{
 	text-decoration: none;
 	color: #bfc94c;
 	padding: 0 80px 0 0;
 	}
+nav a:active{
+	background-color: #bfc94c
+	}
 	
 h2{
 	color: #472839;
+	}
+h3{
+	background-color: #e6b1c4;
+	color: #472839
 	}
 	
 article, section{
 	clear: both;
 	width: 670px;
 	float: right;
-	margin: 0 140px 0 0;
+	margin: -765px 70px 0 250px;
 	}
-article a{
+section a{
 	float: right;
-	color: #bfc94c;
+	color: #e6b1c4;
 	}
 	
 aside{
+	clear: both;
 	background-color: #472839;
 	width: 162px;
 	text-align: center;
 	color: #bfc94c;
-	margin: 0 0 0 10px;
+	margin: 50px 0 0 10px;
 	}
 aside a{
 	color: #bfc94c;
@@ -68,12 +79,22 @@ aside a{
 	margin: 50px 0 0;
 	}
 	
-.gallery{
+.cards{
 	border: solid 3px black;
+	margin: 0 20px 40px 30px;
+	}
+	
+#gallery{
+	margin: -5px 70px 0 250px;
+	}
+#gallery a{
+	margin 0 0 40px 0;
 	}
 /* -----------------Images------------------------- */
 	
 footer{
-	background-color: #472839;
-	height: 171px;
+	margin: 0;
+	text-align: center;
+/* 	background-color: #472839; */
+/* 	height: 171px; */
 	}
