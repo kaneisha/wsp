@@ -41,7 +41,7 @@ h2{
 	color: #472839;
 	}
 	
-article{
+article, section{
 	clear: both;
 	width: 670px;
 	float: right;
@@ -60,8 +60,12 @@ aside{
 	margin: 0 0 0 10px;
 	}
 	
-section{
-	float: right;
+#wrapper{
+	height: 258px;
+	}
+	
+img{
+	border: solid 3px black;
 	}
 	
 footer{
