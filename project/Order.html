@@ -22,7 +22,7 @@
 		<form>
 			<div>
 				<label>Name:</label>
-				<input type="text" name="name" />
+				<input type="text" name="name" autofocus="autofocus" />
 			</div>
 			<div>
 				<label>Email:</label>
@@ -102,12 +102,18 @@
 				<label>Phone Number:</label>
 				<input type="text" name="number" />
 			</div>
+			<fieldset class="reach">
 			<div>
-				<label>Best way to reach you:</label>
+				<legend>Best way to reach you:</legend>
 				<label>Phone</label><input type="radio" name="contact" />
+				<div>
 				<label>Email</label><input type="radio" name="email" />
+				</div>
+				<div>
 				<label>Text</label><input type="radio" name="text" />
+				</div>
 			</div>
+			</fieldset>
 			<div>
 				<label>Occasion</label>
 				<select name="occasion" required="required">
@@ -127,11 +133,15 @@
 				<label>When would you like your card to be delivered?</label>
 				<input type="date" name="delivered" />
 			</div>
+			<fieldset class="pickup">
 			<div>
-				<label>How will your card be delivered</label>
-				<label>Pick-Up</label><input type="radio" name="pick_up" />
-				<label>Mail</label><input type="radio" name="mail" />
+				<legend>How will your card be delivered?</legend>
+				<label>Pick-Up</label><input type="radio" name="pick_up" class="radio" />
+				<div id="mail">
+				<label>Mail</label><input type="radio" name="mail" class="radio" />
+				</div>
 			</div>
+			</fieldset>
 			<div>
 				<label>Is there anything specific you would like your card to say?</label>
 				<textarea rows="6" cols="40">
@@ -146,8 +156,8 @@
 				<label for="your_photo">Upload A Photo</label><input type="file" name="your_photo" value="" id="your_photo" />
 			</div>
 			<div>
-				<input type="submit" value="Continue to Checkout" />
-				<input type="submit" value="Save Information" />
+				<input type="submit" value="Save Information" id="button" />
+				<input type="submit" value="Continue to Checkout" id="checkout" />
 			</div>
 		</form>
 		<footer>
