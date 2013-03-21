@@ -28,6 +28,7 @@ nav ul li{
 	background-color: #7d324e;
 	line-height: 49px;
 	border-right: solid 1px #fff;
+	text-align: center;
 	}
 nav ul{
 	margin: 0;
@@ -47,20 +48,40 @@ nav .current{
 	background-color: #bfc94c;
 	color: #472839;
 	}
-	
+
+#blessedthoughts{
+	/* background: url(../images/logo.png) no-repeat; */
+/* 	margin: 0 auto; */
+	padding: 10px 0px;
+	width: 500px;
+	height: 190px;
+	overflow: hidden;
+	background-size: contain;
+	}
+#blessedthoughts a{
+	background: url(../images/logo.png) no-repeat;
+	display: block;
+	width: 500px;
+	height: 200px;
+	text-indent: -20000px;
+	margin-top: -65px;
+	}
+h1{
+	margin: 0
+	}	
 h2,h1{
 	color: #472839;
 	}
 h3{
 	background-color: #e6b1c4;
-	color: #472839
+	color: #472839;
 	}
 	
 article, section{
 	clear: both;
 	width: 670px;
 	float: right;
-	margin: -765px 70px 0 250px;
+	margin: -765px 70px 50px 250px;
 	}
 section a{
 	float: right;
@@ -84,8 +105,18 @@ footer{
 	clear: both;
 	margin: 0;
 	text-align: center;
-/* 	background-color: #472839; */
-/* 	height: 171px; */
+	background-color: #472839;
+	height: 100px;
+	color: #bfc94c;
+	font-size:20px;
+	}
+footer ul li{
+	display: inline-block;
+	}
+footer a{
+	text-decoration: none;
+	color: #bfc94c;
+	font-size: 16px;
 	}
 
 /* ------------------About Us-----------------------	 */
@@ -102,8 +133,14 @@ aside#hours{
 	background-color: transparent;
 	margin: 10px 100px 0 0;
 	}
-	
+/*--------------------Details-----------------------------*/
+#details{
+	text-align: center;
+	}	
 /* -----------------Images----------------------	 */
+img{
+	margin: 50px 0 0 310px;
+	}
 #feature{
 	margin: 50px 0 0;
 	}
@@ -130,28 +167,50 @@ aside#hours{
 #gallery a{
 	margin 0 0 40px 0;
 	}
+	
+.social{
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	}
 /*----------------------Order----------------------------------------------- */
-form{
+#order{
 	margin-left: 90px;
 	}
 	
 fieldset{
 	border: none;
+	color: #472839;
+	}
+
+#order label{
+	float: left;
+	width: 150px;
+	color: #472839;
+	margin-bottom: 6px;
+	}
+#order input{
+	width: 290px;
+	margin-bottom: 8px;
+	}
+select, textarea{
+	margin-bottom: 8px;
 	}
 	
 .pickup label, .pickup input, .reach label, .reach input{
 /*   display:inline-block; */
-  clear: both;
-  width: 50px;
-}
+  	clear: both;
+  	width: 50px;
+	}
 .pickup label, .reach label{
   width:50px;
   float: left;
-}
+	}
 
 
 /*----------------------Controls--------------------------------------------	 */
-label{
+label.contact_us{
 	display: block;
 /* 	text-align: right; */
 /* 	float: left; */
@@ -160,13 +219,14 @@ label{
 	margin-bottom: 6px;
 	}
 	
-input{
+#name, #email, #number, #questions{
 	width: 290px;
 	margin-bottom: 8px;
 	}
 	
-#button{
-	font-family: "myriad pro" Arial, Helvetica, sans-serif;
+
+input#button{
+	font-family: "myriad pro" Arial, sans-serif;
 	font-size: 16px;
 	color: #bfc94c;
 	padding: 10px 20px;
@@ -197,7 +257,7 @@ input{
 	width: 160px;
 	margin-top: 10px;
 }
-#checkout{
+input#checkout{
 	font-family: "myriad pro", Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	color: #7d324e;
