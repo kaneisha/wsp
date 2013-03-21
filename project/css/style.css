@@ -109,6 +109,7 @@ footer{
 	height: 100px;
 	color: #bfc94c;
 	font-size:20px;
+	width: 960px;
 	}
 footer ul li{
 	display: inline-block;
@@ -177,6 +178,7 @@ img{
 /*----------------------Order----------------------------------------------- */
 #order{
 	margin-left: 90px;
+	margin-top: 50px;
 	}
 	
 fieldset{
@@ -193,6 +195,7 @@ fieldset{
 #order input{
 	width: 290px;
 	margin-bottom: 8px;
+	float: left;
 	}
 select, textarea{
 	margin-bottom: 8px;
@@ -206,6 +209,11 @@ select, textarea{
 .pickup label, .reach label{
   width:50px;
   float: left;
+	}
+	
+div{
+	text-align: left;
+	overflow: hidden;
 	}
 
 
@@ -255,7 +263,7 @@ input#button{
 		0px -1px 0px rgba(000,000,000,0.7),
 		0px 1px 0px rgba(255,255,255,0.3);
 	width: 160px;
-	margin-top: 10px;
+	margin: 10px 8px 0 0;
 }
 input#checkout{
 	font-family: "myriad pro", Arial, Helvetica, sans-serif;
