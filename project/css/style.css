@@ -173,20 +173,19 @@ img#feature{
 	}
 	
 #card{
-	max-width: 100%;
 	background: transparent;
 	float: right;
 	margin: 50px 0 0;
-	font-family: "Lucida Calligraphy", script;
+	font-family: "Lucida Calligraphy", script, serif;
 	color: #472839;
+	width: 281px;
 	}
 #card p{
-	max-width: 100%;
-	margin-left: 80px;
+	width: 100%;
 	}
+
 #order_card{
 	margin: 50px 0 0 0;
-	max-width: 100%;
 	}
 	
 #gallery{
@@ -330,7 +329,7 @@ input#checkout{
 	body{
 		width: 95%
 		}
-	#contact, section{ 
+	#content, #contact, section{ 
 		width:75%;
 		margin: 0; 
 		}
