@@ -190,13 +190,7 @@ img#feature{
 #gallery a{
 	margin 0 0 40px 0;
 	}
-	
-.social{
-/* 	float: right; */
-	width: 30px;
-	height: 30px;
-	margin: 0;
-	}
+
 /*----------------------Order----------------------------------------------- */
 #order{
 	margin-left: 90px;
@@ -336,7 +330,7 @@ input#checkout{
 	aside#hours, aside{ 
 		width:20%;
 		}
-	img#feature, img{
+	img#feature, img, #contact_bird{
 		width: max-width: 100%;
 		height: auto;
 		width: auto\9; /* ie8 */
@@ -344,6 +338,22 @@ input#checkout{
 	}
 	
 @media screen and (max-width: 755px) {
+	body{
+		width: 95%
+		}
+	#contact, section{ 
+		width:75%;
+		margin: 0; 
+		}
+	aside#hours, aside{ 
+		width:20%;
+		}
+	img#feature, img, #contact_bird{
+		width: max-width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+		}
+
 	nav {  
         border-bottom: 0;  
     }  
