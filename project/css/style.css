@@ -106,7 +106,7 @@ aside a{
 	
 footer{
 	clear: both;
-	margin: 0;
+	margin-top 20px;
 	text-align: center;
 	background-color: #472839;
 	height: 100px;
@@ -146,6 +146,7 @@ aside#hours{
 /* -----------------Images----------------------	 */
 img{
 	margin: 50px 0 0 310px;
+	max-width: 100%;
 	}
 img#feature{
 	margin: 50px 0 0;
@@ -155,17 +156,20 @@ img#feature{
 .cards{
 	border: solid 3px #000;
 	margin: 0 20px 40px 30px;
+	max-width: 100%;
 	}
 	
 #bird{
 	border: solid 4px #e6b1c4;
 	float: right;
 	margin: 8px 0 0;
+	max-width: 100%;
 	}
 #contact_bird{
 	float: right;
 	margin: 50px 0 0 -250px;
 	border: solid 4px #e6b1c4;
+	max-width: 100%;
 	}
 	
 #card{
@@ -177,18 +181,21 @@ img#feature{
 	color: #472839;
 	}
 #card p{
-	width: 100%;
+	max-width: 100%;
 	margin-left: 80px;
 	}
 #order_card{
 	margin: 50px 0 0 0;
+	max-width: 100%;
 	}
 	
 #gallery{
 	margin: -760px 70px 0 250px;
+	max-width: 100%;
 	}
 #gallery a{
 	margin 0 0 40px 0;
+	max-width: 100%;
 	}
 
 /*----------------------Order----------------------------------------------- */
@@ -331,7 +338,7 @@ input#checkout{
 		width:20%;
 		}
 	img#feature, img, #contact_bird{
-		width: max-width: 100%;
+		max-width: 100%;
 		height: auto;
 		width: auto\9; /* ie8 */
 		}
