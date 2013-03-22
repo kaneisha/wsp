@@ -16,7 +16,7 @@
 				<li><a href="#">Services</a></li>
 				<li><a href="generic.html">Gallery</a></li>
 				<li><a href="contact.html">Contact Us</a></li>
-				<li><a href="Order.html">Search</a></li>
+				<li><a class="current" href="Order.html">Search</a></li>
 			</ul>
 		</nav>
 		<aside id="card">
@@ -140,11 +140,11 @@
 				<input type="date" name="delivered" />
 			</div>
 			<fieldset class="pickup">
-			<div>
+			<div class="radio">
 				<legend>How will your card be delivered?</legend>
-				<label>Pick-Up</label><input type="radio" name="pick_up" class="radio" />
-				<div id="mail">
-				<label>Mail</label><input type="radio" name="mail" class="radio" />
+				<label>Pick-Up<input type="radio" name="pick_up" class="radio" /></label>
+				<div id="mail" class="radio">
+				<label>Mail<input type="radio" name="mail" class="radio" /></label>
 				</div>
 			</div>
 			</fieldset>
