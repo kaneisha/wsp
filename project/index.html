@@ -9,6 +9,25 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+		 <script src="jquery.js"></script>
+<script>
+		    $(function() {  
+        var pull        = $('#pull');  
+            menu        = $('nav ul');  
+            menuHeight  = menu.height();  
+      
+        $(pull).on('click', function(e) {  
+            e.preventDefault();  
+            menu.slideToggle();  
+        });  
+    }); 
+    		    $(window).resize(function(){  
+        var w = $(window).width();  
+        if(w > 320 && menu.is(':hidden')) {  
+            menu.removeAttr('style');  
+        }  
+    });  
+    </script> 
 		<header>
 			<h1 id="blessedthoughts"><a href="#">Blessed Thoughts Greeting Cards</a></h1>
 		</header>
@@ -19,7 +38,7 @@
 				<li><a href="#">Services</a></li>
 				<li><a href="generic.html">Gallery</a></li>
 				<li><a href="contact.html">Contact Us</a></li>
-				<li><a href="Order.html">Search</a></li>
+				<li><a href="Order.html">Order</a></li>
 			</ul>
 		</nav>
 		<aside>
@@ -70,7 +89,7 @@
 				<li><a href="services.html">Services |</a></li>
 				<li><a href="generic.html">Gallery |</a></li>
 				<li><a href="contact.html">Contact Us |</a></li>
-				<li><a href="Order.html">Search</a></li>
+				<li><a href="Order.html">Order</a></li>
 			</ul>
 			<p>&copy; Copyright 2013 Blessed Thoughts. All Rights Reserved</p>
 		</footer>

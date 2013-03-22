@@ -11,6 +11,7 @@
 body{
 	font-family: "myriad pro", arial, sans-serif;
 	background: url(../images/bg_floral.jpg);
+	max-width: 960px;
 	}
 	
 header{
@@ -75,10 +76,11 @@ h2,h1{
 h3{
 	background-color: #e6b1c4;
 	color: #472839;
+	margin: 0;
 	}
 	
 article, section{
-	clear: both;
+/* 	clear: both; */
 	width: 69.79166667%;
 	float: right;
 	margin: -765px 70px 50px 250px;
@@ -89,7 +91,8 @@ section a{
 	}
 	
 aside{
-	clear: both;
+/* 	clear: both; */
+	float: left;
 	background-color: #472839;
 	width: 162px;
 	text-align: center;
@@ -126,13 +129,15 @@ footer a{
 	}
 /*------------------- Contact Us---------------------	 */
 #contact{
-	margin: -470px 200px 0 250px;
+	float: left;
+	margin: -420px 0 60px 60px;
+	width: 69.79166667%
 	}
 	
 aside#hours{
 	float: right;
 	background-color: transparent;
-	margin: 10px 100px 0 0;
+	margin: 260px -50px 0 0;
 	}
 /*--------------------Details-----------------------------*/
 #details{
@@ -320,7 +325,46 @@ input#checkout{
 }
 /*-----------------------------Media Queries------------------------------------*/
 /* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-section { width:80%; }
-aside { width:20%;}
+@media screen and (max-width: 990px) {
+	body{
+		width: 95%
+		}
+	#contact, section{ 
+		width:75%;
+		margin: 0; 
+		}
+	aside#hours, aside{ 
+		width:20%;
+		}
+	img#feature, img{
+		width: max-width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+		}
 	}
+	
+@media screen and (max-width: 755px) {
+	nav {  
+        border-bottom: 0;  
+    }  
+    nav ul {  
+        display: none;  
+        height: auto;  
+    }  
+    nav a#pull {  
+        display: block;  
+        background-color: #bfc94c;  
+        width: 100%;  
+        position: relative;  
+    }  
+    nav a#pull:after {  
+        content:"";  
+        background: url('nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        rightright: 15px;  
+        top: 10px;  
+    }  
+}  
