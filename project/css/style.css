@@ -31,12 +31,19 @@ nav ul li{
 	border-right: solid 1px #fff;
 	text-align: center;
 	width: 16.123456789%;
+	word-spacing:0;
+	letter-spacing:0;
+	}
+nav ul li:last-child{
+	border: none;
 	}
 nav ul{
 	margin: 0;
 	padding: 0;
 	background-color: #7d324e;
 	width: 100%;
+	letter-spacing:-0.31em;
+	word-spacing:-0.43em;
 	}
 nav a{
 	display: block;
@@ -241,6 +248,12 @@ div{
 	
 .radio{
 	clear: both;
+	margin: 0;
+	padding: 0;
+	}
+fieldset{
+	margin: 0;
+	padding: 0;
 	}
 
 
