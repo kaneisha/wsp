@@ -49,7 +49,7 @@ nav a{
 nav .current{
 	background-color: #bfc94c;
 	color: #472839;
-	}      
+	}   
 
 #blessedthoughts{
 /* 	margin: 0 auto; */
@@ -82,8 +82,7 @@ h3{
 article, section{
 /* 	clear: both; */
 	width: 69.79166667%;
-	float: right;
-	margin: -765px 70px 50px 250px;
+	float: left;
 	}
 section a{
 	float: right;
@@ -123,7 +122,11 @@ footer a{
 	color: #bfc94c;
 	font-size: 16px;
 	}
-
+/*-------------------Home--------------------------------*/
+#home{
+	margin-left: 60px;
+	margin-bottom: 30px;
+	}
 /* ------------------About Us-----------------------	 */
 #content{
 	margin: -770px 70px 0 250px;
@@ -190,8 +193,8 @@ img#feature{
 	}
 	
 #gallery{
-	margin: -810px 70px 0 250px;
 	max-width: 100%;
+	margin-left: 80px; 
 	}
 #gallery a{
 	margin 0 0 40px 0;
@@ -330,9 +333,9 @@ input#checkout{
 	body{
 		width: 95%
 		}
-	#content, #contact, section{ 
+	#home, #content, #contact, section{ 
 		width:75%;
-		margin: 0; 
+		margin-left: 30px; 
 		}
 	aside#hours, aside{ 
 		width:20%;
