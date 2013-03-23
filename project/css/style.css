@@ -126,7 +126,7 @@ footer a{
 	}
 /* ------------------About Us-----------------------	 */
 #content{
-	margin: -770px 70px 0 210px;
+	margin: -770px 70px 0 200px;
 	}
 /*------------------- Contact Us---------------------	 */
 #contact{
@@ -163,7 +163,7 @@ img#feature{
 #bird{
 	border: solid 4px #e6b1c4;
 	float: right;
-	margin: 8px 0 0;
+	margin: 8px -90px 0 0;
 	max-width: 100%;
 	}
 #contact_bird{
