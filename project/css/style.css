@@ -126,7 +126,7 @@ footer a{
 	}
 /* ------------------About Us-----------------------	 */
 #content{
-	margin: -770px 70px 0 250px;
+	margin: -770px 70px 0 210px;
 	}
 /*------------------- Contact Us---------------------	 */
 #contact{
@@ -330,9 +330,17 @@ input#checkout{
 	body{
 		width: 95%
 		}
-	#home, #content, #contact, section{ 
+	#home, #contact, section{ 
 		width:75%;
 		margin-left: 30px; 
+		}
+	#content{
+		width: 75%
+		margin-left: 220px;
+		}
+	#gallery{
+		width: 75%;
+		margin-left: 30px;
 		}
 	aside#hours, aside{ 
 		width:20%;
