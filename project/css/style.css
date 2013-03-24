@@ -110,7 +110,7 @@ aside a{
 	
 footer{
 	clear: both;
-	margin-top 20px;
+	margin-top: 20px;
 	text-align: center;
 	background-color: #472839;
 	height: 100px;
@@ -201,7 +201,7 @@ img#feature{
 	margin-left: 80px; 
 	}
 #gallery a{
-	margin 0 0 40px 0;
+	margin: 0 0 40px 0;
 	max-width: 100%;
 	}
 
@@ -274,7 +274,7 @@ label.contact_us{
 	
 
 input#button{
-	font-family: "myriad pro" Arial, sans-serif;
+	font-family: "myriad pro", Arial, sans-serif;
 	font-size: 16px;
 	color: #bfc94c;
 	padding: 10px 20px;
@@ -340,7 +340,7 @@ input#checkout{
 /*-----------------------------Media Queries------------------------------------*/
 /* Tablet Landscape */
 @media screen and (max-width: 990px) {
-	body{
+	body, footer{
 		width: 95%
 		}
 	#home, #contact, section{ 
@@ -348,7 +348,7 @@ input#checkout{
 		margin-left: 30px; 
 		}
 	#content{
-		width: 75%
+		width: 75%;
 		margin-left: 220px;
 		}
 	#gallery{
@@ -365,8 +365,36 @@ input#checkout{
 		}
 	}
 	
+@media screen and (max-width: 928px) {
+	.cards{
+		margin: 0 20px 20px 10px;
+		}
+	}
+	
+@media screen and (max-width: 844px) {
+	#remove{
+		display: none;
+		}
+	#gallery h2{
+		text-align: center;
+		margin-right: 50px;
+		}
+	.cards{
+		margin: 0 100px 20px 5px;
+		}
+	}
+	
+@media screen and (max-width: 775px) {
+ 	.cards{
+ 		margin: 0 90px 20px 0;
+ 		}
+ 	#gallery div{
+ 		margin-right: -40px;
+ 		}
+ 	}
+	
 @media screen and (max-width: 755px) {
-	body{
+	body, footer{
 		width: 95%
 		}
 	#contact, section{ 
@@ -377,13 +405,49 @@ input#checkout{
 		display: none;
 		}
 	img#feature, img, #contact_bird{
-		width: max-width: 100%;
+		max-width: 100%;
 		height: auto;
 		width: auto\9; /* ie8 */
+		}
+	img#feature{
+		margin-left: 60px;
+		}
+	#gallery h2{
+		margin-left: 140px;
+		}
+	.cards{
+		margin: 0 30px 20px 60px;
 		}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
+	.cards{
+		margin: 0 50px 20px 0;
+		}
+	#gallery h2{
+		margin: 19px -30px 19px 0;
+		}
+	img#feature{
+		margin-left: 35px;
+		}
+	}
+	
+@media screen and (max-width: 563px) {	
+	.cards{
+		margin: 0 0 20px 20px;
+		}
+	#gallery h2{
+		margin-left: 50px;
+		}
+	#gallery div{
+		margin-bottom: -30px;
+		}
+	img#gallery#feature{
+		display: none;
+		}
+	}
+	
+@media screen and (max-width: 483px) {
 	body{
 		width: 95%
 		}
@@ -395,8 +459,14 @@ input#checkout{
 		display: none;
 		}
 	img#feature, img, #contact_bird{
-		width: max-width: 100%;
+		max-width: 100%;
 		height: auto;
 		width: auto\9; /* ie8 */
+		}
+	.cards{
+		margin: 0 10px 20px 0;
+		}
+	#gallery h2{
+		margin-left: 5px;
 		}
 }
