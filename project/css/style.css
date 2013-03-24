@@ -204,6 +204,10 @@ img#feature{
 	margin: 0 0 40px 0;
 	max-width: 100%;
 	}
+#feature_rose{
+	max-width: 100%;
+	margin-left: 30px;
+	}
 
 /*----------------------Order----------------------------------------------- */
 #order{
@@ -383,7 +387,28 @@ input#checkout{
 		margin: 0 100px 20px 5px;
 		}
 	}
-	
+
+@media screen and (max-width: 801px) {
+	#contact_bird{
+		display: none;
+		}
+	section#contact{
+		width: 60%;
+		margin: 50px 0 60px 30px;
+		}
+	aside#hours{
+		margin: 90px 90px 0 0;
+		}
+	#gallery{
+		margin: 0;
+		}
+	.cards{
+		margin: 0 60px 20px 0;
+		}
+	#gallery div{
+		margin-left: 80px
+		}
+	}	
 @media screen and (max-width: 775px) {
  	.cards{
  		margin: 0 90px 20px 0;
@@ -397,7 +422,7 @@ input#checkout{
 	body, footer{
 		width: 95%
 		}
-	#contact, section{ 
+	section{ 
 		width:75%;
 		margin: 0; 
 		}
@@ -409,14 +434,26 @@ input#checkout{
 		height: auto;
 		width: auto\9; /* ie8 */
 		}
-	img#feature{
+	#content{
+		margin: 50px 70px 20px 50px;
+		}
+	img#feature, #feature_rose{
 		margin-left: 60px;
+		}
+	#feature_rose{
+		margin-left: 100px;
 		}
 	#gallery h2{
 		margin-left: 140px;
 		}
 	.cards{
-		margin: 0 30px 20px 60px;
+		margin: 0 30px 20px 30px;
+		}
+	#contact{
+		width: 60%;
+		}
+	#hours aside{
+		margin: 90px 90px 0 0;
 		}
 }
 
@@ -455,7 +492,7 @@ input#checkout{
 		width:75%;
 		margin: 0; 
 		}
-	aside{ 
+	aside, #feature_rose{ 
 		display: none;
 		}
 	img#feature, img, #contact_bird{
