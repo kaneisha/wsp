@@ -51,7 +51,7 @@ margin-top: 3px;
 .mean-container .mean-nav { 
 float: left;
 width: 100%;
-background: #0c1923;
+background: #7d324e;
 margin-top: 33px;
 }
 .mean-container .mean-nav ul {
@@ -68,7 +68,7 @@ padding: 1em 5%;
 margin: 0;
 text-align: left;
 color: #fff;
-border-top: 1px solid #383838;
+/* border-top: 1px solid #383838; */
 border-top: 1px solid rgba(255,255,255,0.5);
 text-decoration: none;
 text-transform: uppercase;

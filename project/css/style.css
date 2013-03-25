@@ -213,51 +213,79 @@ img#feature{
 #order{
 	margin-left: 90px;
 	margin-top: 50px;
+	width: 50%;
+	float: left;
 	}
 	
 fieldset{
 	border: none;
 	color: #472839;
+	margin: 0;
+	padding: 0;
 	}
 
-#order label{
-	float: left;
-	width: 150px;
-	color: #472839;
-	margin-bottom: 6px;
+/* #order label{ */
+/* 	float: left; */
+/* 	width: 150px; */
+/* 	color: #472839; */
+/* 	margin-bottom: 6px; */
 	}
-#order input{
+#order input, select{
 	width: 290px;
 	margin-bottom: 8px;
-	float: left;
+	float: right;
 	}
 select, textarea{
 	margin-bottom: 8px;
 	}
 	
-.pickup label, .pickup input, .reach label, .reach input{
+/* .pickup label, .pickup input, .reach label, .reach input{ */
 /*   display:inline-block; */
-  	clear: both;
-  	width: 50px;
+/*   	clear: both; */
+/*   	width: 50px; */
 	}
-.pickup label, .reach label{
-  width:50px;
-  float: left;
+/* .pickup label, .reach label{ */
+/*   width:50px; */
+/*   float: left; */
+/* 	} */
+	
+#order div{
+/* 	overflow: hidden; */
+	margin-bottom: 20px;
+	text-align: right;
 	}
 	
-div{
-	text-align: left;
-	overflow: hidden;
+/* .radio{ */
+/* 	clear: both; */
+/* 	margin: 0; */
+/* 	padding: 0; */
+/* 	width: auto; */
+	}
+
+form fieldset.radio ul li label {
+	display: inline;
+	float: none;
+	width: auto;
+	font-weight: normal;
+	}
+form fieldset.radio ul {
+	margin: 5px 0 0 20%;
+	}
+form fieldset.radio ul li {
+	margin: 0 0 5px 0;
+	list-style-type: none;
+	}
+form fieldset.radio ul li:last-child {
+	margin: 0;
 	}
 	
-.radio{
-	clear: both;
-	margin: 0;
-	padding: 0;
-	}
-fieldset{
-	margin: 0;
-	padding: 0;
+form fieldset{
+	border: none;
+	}	
+form fieldset label {
+	float: left;
+	width: 20%;
+	margin: 4px 0 5px 0;
 	}
 
 
@@ -470,9 +498,16 @@ input#checkout{
 		}
 }
 
+@media screen and (max-width: 708px) {
+	.cards{
+		margin-top: 0;
+		margin-right: 0;
+		}
+	}
+
 @media screen and (max-width: 680px) {
 	.cards{
-		margin: 0 50px 20px 0;
+		margin-bottom: 20px;
 		}
 	#gallery h2{
 		margin: 19px -30px 19px 0;
@@ -495,19 +530,70 @@ input#checkout{
 		margin: 0 60px 20px 0;
 		}
 	}
-		
-@media screen and (max-width: 563px) {	
+	
+@media screen and (max-width: 624px) {
 	.cards{
-		margin: 0 0 20px 20px;
+		margin-left: 20px;
 		}
+	}
+	
+@media screen and (max-width: 597px) {
+	nav ul li{
+		display: inline;
+		}
+	#blessedthoughts a{
+		margin-top: 30px;
+		}
+	.cards{
+		margin-left: 15px;
+		}		
+	}	
+	
+@media screen and (max-width: 581px) {
+	.cards{
+		margin-left: 10px;
+		}
+	}
+		
+@media screen and (max-width: 574px) {	
 	#gallery h2{
-		margin-left: 50px;
+		margin-left: 30px;
 		}
 	#gallery div{
 		margin-bottom: -30px;
+		overflow: hidden;
 		}
-	img#gallery#feature{
+	#feature_rose{
 		display: none;
+		}
+	}
+	
+@media screen and (max-width: 568px) {
+	.cards{
+		margin-left: 8px;
+		}
+	#gallery h2{
+		margin-left: 5px;
+		margin-right: 0;
+		}
+	}
+	
+@media screen and (max-width: 562px) {
+	.cards{
+		margin-left: 5px;
+		}
+	}
+	
+@media screen and (max-width: 568px) {
+	#gallery div{
+		margin: 0 -70px -30px 0;
+		}
+	.cards{
+		margin-left: 20px;
+		margin-right: 0;
+		}
+	#gallery h2{
+		margin-left: 100px;
 		}
 	}
 	
@@ -521,6 +607,12 @@ input#checkout{
 		}
 	#contact h1{
 		text-align: left;
+	}
+	
+@media screen and (max-width: 471px) {
+	footer p{
+		font-size: 14px;
+		}
 	}
 	
 @media screen and (max-width: 483px) {
@@ -544,8 +636,17 @@ input#checkout{
 		}
 	#gallery h2{
 		margin-left: 5px;
-		}
+		}				
 }
+
+@media screen and (max-width: 413px) {
+	#gallery div{
+		margin-right: -20px;
+		}
+	#gallery h2{
+		margin-left: 90px;
+		}
+	}
 
 @media screen and (max-width: 380px) {
 	header{

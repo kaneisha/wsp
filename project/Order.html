@@ -121,18 +121,14 @@ jQuery(document).ready(function () {
 				<label>Phone Number:</label>
 				<input type="text" name="number" />
 			</div>
-			<fieldset class="reach">
-			<div>
-				<legend>Best way to reach you:</legend>
-				<label>Phone</label><input type="checkbox" name="contact" />
-				<div>
-				<label>Email</label><input type="checkbox" name="email" />
-				</div>
-				<div>
-				<label>Text</label><input type="checkbox" name="text" />
-				</div>
-			</div>
-			</fieldset>
+			<fieldset class="radio">
+		<label for="notifications">Best way to reach you</label>
+		<ul>
+			<li><label><input type="radio" name="notifications" /> Phone</label></li>
+			<li><label><input type="radio" name="notifications" /> Email</label></li>
+			<li><label><input type="radio" name="notifications" />Text</label></li>
+		</ul>
+	</fieldset>
 			<div>
 				<label>Occasion</label>
 				<select name="occasion" required="required">
@@ -152,13 +148,13 @@ jQuery(document).ready(function () {
 				<label>When would you like your card to be delivered?</label>
 				<input type="date" name="delivered" />
 			</div>
-			<fieldset class="pickup">
-			<div class="radio">
-				<label>How will your card be delivered?</label>
-				<label>Pick-Up<input type="radio" name="pick_up" class="radio" /></label>
-				<label>Mail<input type="radio" name="mail" class="radio" /></label>
-			</div>
-			</fieldset>
+			<fieldset class="radio">
+		<label for="delivery">How will your card be delivered?</label>
+		<ul>
+			<li><label><input type="radio" name="notifications" />Pick-Up</label></li>
+			<li><label><input type="radio" name="notifications" />Mail</label></li>
+		</ul>
+	</fieldset>
 			<div>
 				<label>Is there anything specific you would like your card to say?</label>
 				<textarea rows="6" cols="40">
