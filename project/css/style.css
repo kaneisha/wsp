@@ -535,6 +535,44 @@ input#checkout{
 		}
 }
 
+@media screen and (max-width: 380px) {
+	header{
+		height: 130px;
+		}
+	#blessedthoughts a{
+		background: url(../images/logo_mobile.png) no-repeat;
+		margin-top: 40px;
+		margin-left: 20px;
+		}
+	footer p{
+		font-size: 14px;
+		}
+	img#bird{
+		margin: 0 0 10px 0;
+		}
+	.cards{
+		margin-right: 40px;
+		}
+	#gallery h2{
+		margin-right: 30px;
+		}
+	section#contact{
+		margin-left: 30px;
+		}
+	#contact h1{
+		text-align: center;
+		}
+	aside#hours{
+		margin-top: 50px;
+		}
+	#order{
+		margin-left: 30px;
+		}
+	#order_card{
+		margin: 30px 0 0 60px;
+		}
+	}
+
 @media screen and (max-width: 320px) {
 	header{
 		height: 130px;
