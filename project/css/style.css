@@ -16,7 +16,7 @@ body{
 	
 header{
 	background-color: #472839;
-	height: 123px;
+	height: 130px;
 	}
 
 nav{
@@ -69,7 +69,7 @@ nav .current{
 	width: 100%;
 	height: 100px;
 	text-indent: -20000px;
-/* 	margin-top: -65px; */
+	margin-top: 30px;
 	}
 h1{
 	margin: 0
@@ -534,3 +534,4 @@ input#checkout{
 		margin-left: 5px;
 		}
 }
+
