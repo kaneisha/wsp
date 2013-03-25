@@ -416,7 +416,19 @@ input#checkout{
  	#gallery div{
  		margin-right: -40px;
  		}
- 	}
+ 	}	
+ 
+@media screen and (max-width: 768px) {
+	#content{
+		margin: -770px 0 0 170px;
+		}
+	#bird{
+		margin: 8px -20px 10px 0;
+		}
+	#order_card{
+		margin-left: 120px;
+		}
+	}	
 	
 @media screen and (max-width: 755px) {
 	body, footer{
