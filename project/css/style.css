@@ -535,3 +535,29 @@ input#checkout{
 		}
 }
 
+@media screen and (max-width: 320px) {
+	header{
+		height: 130px;
+		}
+	#blessedthoughts a{
+		background: url(../images/logo_mobile.png) no-repeat;
+		margin-top: 40px;
+		margin-left: 20px;
+		}
+	footer p{
+		font-size: 14px;
+		}
+	img#bird{
+		margin: 0 0 10px 0;
+		}
+	#gallery h2{
+		margin-right: 30px;
+		}
+	section#contact{
+		margin-left: 0;
+		}
+	aside#hours{
+		margin-top: 50px;
+		}
+	}
+
