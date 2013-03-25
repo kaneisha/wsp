@@ -452,7 +452,8 @@ input#checkout{
 	#contact{
 		width: 60%;
 		}
-	#hours aside{
+	#hours{
+		display: block;
 		margin: 90px 90px 0 0;
 		}
 }
@@ -469,6 +470,20 @@ input#checkout{
 		}
 	}
 	
+@media screen and (max-width: 646px) {
+	section#contact{
+		margin-left: 165px;
+		}
+	aside#hours{
+		width: 100%;
+		margin-right: 0;
+		}
+	#contact h1{
+		text-align: center;
+		margin: 0 60px 20px 0;
+		}
+	}
+		
 @media screen and (max-width: 563px) {	
 	.cards{
 		margin: 0 0 20px 20px;
@@ -482,6 +497,18 @@ input#checkout{
 	img#gallery#feature{
 		display: none;
 		}
+	}
+	
+@media screen and (max-width: 534px) {
+	aside#hours{
+		width: 95%;
+		}
+	section#contact{
+		width: 95%;
+		margin-left: 100px;
+		}
+	#contact h1{
+		text-align: left;
 	}
 	
 @media screen and (max-width: 483px) {
