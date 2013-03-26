@@ -210,15 +210,26 @@ img#feature{
 	}
 
 /*----------------------Order----------------------------------------------- */
+#responsive{
+	visibility: hidden;
+	}
 form fieldset{
 	border: none;
 	}	
-form fieldset label {
+.form_input label {
 	float: left;
 	width: 20%;
 	margin: 4px 0 5px 0;
 	color: #472839;
+	text-align: right;
+	padding-right: 10px;
 	}
+.form_input input{
+	float: left;
+	padding: 5px;
+	color: #472839;
+	}
+ 
 form fieldset.radio ul li label {
 	display: inline;
 	float: none;
@@ -237,6 +248,7 @@ form fieldset.radio ul li:last-child {
 	}
 .radio{
 	width: 557px;
+	color: #472839;
 	}
 
 .form-text{
@@ -245,12 +257,20 @@ form fieldset.radio ul li:last-child {
 #order{
 	margin-left: 80px;
 	margin-top: 30px;
+	width: 400px;
 	}
 #order_card{
 	margin-left: 230px;
 	}
 #insert_card{
 	margin-left: 0;
+	}
+	
+.form_input{
+	clear: both;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 577px;
 	}
 	
 
@@ -380,6 +400,9 @@ input#checkout{
 	.cards{
 		margin: 0 100px 20px 5px;
 		}
+	#card{
+		display: none;
+		}
 	}
 
 @media screen and (max-width: 801px) {
@@ -506,7 +529,7 @@ input#checkout{
 		}
 	}
 	
-@media screen and (max-width: 597px) {
+@media screen and (max-width: 599px) {
 	nav ul li{
 		display: inline;
 		}
@@ -515,6 +538,36 @@ input#checkout{
 		}
 	.cards{
 		margin-left: 15px;
+		}
+	#order{
+		display: none;
+		}
+	#order_card{
+		margin: 40px 0 10px 150px;
+		}
+	.form_input, fieldset{
+		width: 92%;
+		}
+	#responsive{
+		visibility: visible;
+		margin-left: 100px;
+		width: 100%
+		}
+	#delivery, #state_responsive, #occasion_responsive, #photo_responsive{
+		width: 200px;
+		text-align: left;
+		}
+	#state, #occasion{
+		width: 290px;
+		}
+	textarea{
+		width: 305px;
+		}
+	form fieldset.radio ul{
+		margin: 0;
+		}
+	fieldset{
+		width: 300px;
 		}		
 	}	
 	
@@ -578,8 +631,23 @@ input#checkout{
 		text-align: left;
 	}
 	
+@media screen and (max-width: 505px) {
+	.form_input input, .form_input label{
+		clear: both;
+		width: 92%;
+		text-align: left;
+		}
+	.form_input{
+		width: 92%;
+		}
+	
+	}
+	
 @media screen and (max-width: 471px) {
 	footer p{
+		font-size: 14px;
+		}
+	footer ul{
 		font-size: 14px;
 		}
 	}

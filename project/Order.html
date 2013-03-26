@@ -41,21 +41,28 @@ jQuery(document).ready(function () {
 		
 		<form id="order" action="/">
 	<fieldset>
+		<div class="form_input">
 		<label for="name">Name</label>
-		<input type="text" id="name" class="form-text" />
+		<input type="text" id="name" class="form-text" autofocus="autofocus" />
+		</div>
 	</fieldset>
 	
 	<fieldset>
+		<div class="form_input">
 		<label for="email">Email</label>
 		<input type="email" id="email" class="form-text" />
+		</div>
 	</fieldset>
 	
 	<fieldset>
+		<div class="form_input">
 		<label for="city">City</label>
 		<input type="text" id="city" class="form-text" />
+		</div>
 	</fieldset>
 	
 	<fieldset>
+		<div class="form_input">
 		<label for="state">State</label>
 		<select id="state">
 						<option value="AL">Alabama</option> 
@@ -110,71 +117,252 @@ jQuery(document).ready(function () {
 						<option value="WI">Wisconsin</option> 
 						<option value="WY">Wyoming</option>
 		</select>
+		</div>
 	</fieldset>
 	
 	<fieldset>
+		<div class="form_input">
 		<label for="zip_code">Zip Code</label>
 		<input type="text" id="zip_code" class="form-text" />
+		</div>
 	</fieldset>
 	
 	<fieldset>
+		<div class="form_input">
 		<label for="phone">Phone Number</label>
 		<input type="text" id="phone" class="form-text" />
+		</div>
 	</fieldset>
 
 	<fieldset class="radio">
+		<div>
 		<label for="notifications">Best way to reach you</label>
 		<ul>
 			<li><label><input type="radio" name="notifications" /> Phone</label></li>
 			<li><label><input type="radio" name="notifications" /> Email</label></li>
 			<li><label><input type="radio" name="notifications" />Text</label></li>
 		</ul>
+		</div>
 	</fieldset>
 	
 	<fieldset>
-		<label for="state">State</label>
-		<select id="state">
+		<div class="form_input">
+		<label for="occasion">Occasion</label>
+		<select id="occasion">
 					<option>Baby Shower</option>
 					<option>Birthday</option>
 					<option>Get Well</option>
 					<option>Sympathy</option>
 					<option>Other</option>
 		</select>
+		</div>
 	</fieldset>
 	
 	<fieldset>
+		<div class="form_input">
 		<label for="other">If you chose other please specify:</label>
 		<input type="text" id="other" class="form-text" />
+		</div>
 	</fieldset>
 	
 	<fieldset>
-		<label for="date">When would you like your card to be delivered?</label>
+		<div class="form_input">
+		<label for="date">Date of delivery:</label>
 		<input type="date" id="date" class="form-text" />
+		</div>
 	</fieldset>
 	
 	<fieldset class="radio">
+		<div>
 		<label for="delivery">How will your card be delivered?</label>
 		<ul>
 			<li><label><input type="radio" name="notifications" />Pick-Up</label></li>
 			<li><label><input type="radio" name="notifications" />Mail</label></li>
 		</ul>
+		</div>
 	</fieldset>
 	
 	<fieldset>
-		<label id="specific">Is there anything specific you would like to say? Include colors, designs, names, etc.
+		<div class="form_input">
+		<label id="specific">Is there anything specific you would like to say? Include colors, designs, names, etc.</label>
 		<textarea rows="6" cols="40"></textarea>
+		</div>
+	</fieldset>
 
 	<fieldset>
+		<div class="form_input">
 		<label for="photo">Upload a Photo</label>
 		<input type="file" name="photo" value="" id="photo" />
+		</div>
 	</fieldset>
 
 	<fieldset class="form-actions">
+		<div class="form_input">
 		<input type="submit" value="Save Information" id="button" />
 		<input type="submit" value="Continue to Checkout" id="checkout" />
+		</div>
 	</fieldset>
 </form>			
+	
+	
 				
+<form id="responsive" action="/">
+	<fieldset>
+		<div class="form_input">
+		<input type="text" id="name" class="form-text" autofocus="autofocus" placeholder="Name" />
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div class="form_input">
+		<input type="email" id="email" class="form-text" placeholder="Email" />
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div class="form_input">
+		<input type="text" id="city" class="form-text" placeholder="City" />
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div class="form_input">
+		<label for="state" id="state_responsive">State</label>
+		<select id="state">
+						<option value="AL">Alabama</option> 
+						<option value="AK">Alaska</option> 
+						<option value="AZ">Arizona</option> 
+						<option value="AR">Arkansas</option> 
+						<option value="CA">California</option> 
+						<option value="CO">Colorado</option> 
+						<option value="CT">Connecticut</option> 
+						<option value="DE">Delaware</option> 
+						<option value="DC">District Of Columbia</option> 
+						<option value="FL">Florida</option> 
+						<option value="GA">Georgia</option> 
+						<option value="HI">Hawaii</option> 
+						<option value="ID">Idaho</option> 
+						<option value="IL">Illinois</option> 
+						<option value="IN">Indiana</option> 
+						<option value="IA">Iowa</option> 
+						<option value="KS">Kansas</option> 
+						<option value="KY">Kentucky</option> 
+						<option value="LA">Louisiana</option> 
+						<option value="ME">Maine</option> 
+						<option value="MD">Maryland</option> 
+						<option value="MA">Massachusetts</option> 
+						<option value="MI">Michigan</option> 
+						<option value="MN">Minnesota</option> 
+						<option value="MS">Mississippi</option> 
+						<option value="MO">Missouri</option> 
+						<option value="MT">Montana</option> 
+						<option value="NE">Nebraska</option> 
+						<option value="NV">Nevada</option> 
+						<option value="NH">New Hampshire</option> 
+						<option value="NJ">New Jersey</option> 
+						<option value="NM">New Mexico</option> 
+						<option value="NY">New York</option> 
+						<option value="NC">North Carolina</option> 
+						<option value="ND">North Dakota</option> 
+						<option value="OH">Ohio</option> 
+						<option value="OK">Oklahoma</option> 
+						<option value="OR">Oregon</option> 
+						<option value="PA">Pennsylvania</option> 
+						<option value="RI">Rhode Island</option> 
+						<option value="SC">South Carolina</option> 
+						<option value="SD">South Dakota</option> 
+						<option value="TN">Tennessee</option> 
+						<option value="TX">Texas</option> 
+						<option value="UT">Utah</option> 
+						<option value="VT">Vermont</option> 
+						<option value="VA">Virginia</option> 
+						<option value="WA">Washington</option> 
+						<option value="WV">West Virginia</option> 
+						<option value="WI">Wisconsin</option> 
+						<option value="WY">Wyoming</option>
+		</select>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div class="form_input">
+		<input type="text" id="zip_code" class="form-text" placeholder="Zip Code" />
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div class="form_input">
+		<input type="text" id="phone" class="form-text" placeholder="Phone Number" />
+		</div>
+	</fieldset>
+
+	<fieldset class="radio">
+		<div>
+		<label for="notifications">Best way to reach you</label>
+		<ul>
+			<li><label><input type="radio" name="notifications" /> Phone</label></li>
+			<li><label><input type="radio" name="notifications" /> Email</label></li>
+			<li><label><input type="radio" name="notifications" />Text</label></li>
+		</ul>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div class="form_input">
+		<label for="occasion" id="occasion_responsive">Occasion</label>
+		<select id="occasion">
+					<option>Baby Shower</option>
+					<option>Birthday</option>
+					<option>Get Well</option>
+					<option>Sympathy</option>
+					<option>Other</option>
+		</select>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div class="form_input">
+		<input type="text" id="other" class="form-text" placeholder="If other please specify" />
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div class="form_input">
+		<label for="date" id="delivery">Date of delivery:</label>
+		<input type="date" id="date" class="form-text" />
+		</div>
+	</fieldset>
+	
+	<fieldset class="radio">
+		<div>
+		<label for="delivery">How will your card be delivered?</label>
+		<ul>
+			<li><label><input type="radio" name="notifications" />Pick-Up</label></li>
+			<li><label><input type="radio" name="notifications" />Mail</label></li>
+		</ul>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div class="form_input">
+		<textarea rows="6" cols="40" placeholder="Is there anything specific you would like to say? Include colors, designs, names, etc."></textarea>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<div class="form_input">
+		<label for="photo" id="photo_responsive">Upload a Photo</label>
+		<input type="file" name="photo" value="" id="photo" />
+		</div>
+	</fieldset>
+
+	<fieldset class="form-actions">
+		<div class="form_input">
+		<input type="submit" value="Save Information" id="button" />
+		<input type="submit" value="Continue to Checkout" id="checkout" />
+		</div>
+	</fieldset>
+</form>			
 		
 		<footer>
 			<ul>
