@@ -210,7 +210,7 @@ img#feature{
 	}
 
 /*----------------------Order----------------------------------------------- */
-#order{
+.order{
 	margin-left: 90px;
 	margin-top: 50px;
 	width: 50%;
@@ -224,13 +224,13 @@ fieldset{
 	padding: 0;
 	}
 
-/* #order label{ */
+.order label{
 /* 	float: left; */
-/* 	width: 150px; */
-/* 	color: #472839; */
+	width: 150px;
+	color: #472839;
 /* 	margin-bottom: 6px; */
 	}
-#order input, select{
+.order input, select{
 	width: 290px;
 	margin-bottom: 8px;
 	float: right;
@@ -249,7 +249,7 @@ select, textarea{
 /*   float: left; */
 /* 	} */
 	
-#order div{
+.order div{
 /* 	overflow: hidden; */
 	margin-bottom: 20px;
 	text-align: right;
@@ -282,11 +282,15 @@ form fieldset.radio ul li:last-child {
 form fieldset{
 	border: none;
 	}	
-form fieldset label {
-	float: left;
-	width: 20%;
+form fieldset.radio label {
+/* 	float: left; */
+	width: 240px;
 	margin: 4px 0 5px 0;
 	}
+.order .radio input{
+	width: 240px;
+	}
+	
 
 
 /*----------------------Controls--------------------------------------------	 */
@@ -503,6 +507,9 @@ input#checkout{
 		margin-top: 0;
 		margin-right: 0;
 		}
+	.content h2{
+		margin-top: 50px;
+		}
 	}
 
 @media screen and (max-width: 680px) {
@@ -708,6 +715,9 @@ input#checkout{
 		margin-left: 0;
 		}
 	aside#hours{
+		margin-top: 50px;
+		}
+	.content h2{
 		margin-top: 50px;
 		}
 	}
