@@ -210,58 +210,15 @@ img#feature{
 	}
 
 /*----------------------Order----------------------------------------------- */
-.order{
-	margin-left: 90px;
-	margin-top: 50px;
-	width: 50%;
-	float: left;
-	}
-	
-fieldset{
+form fieldset{
 	border: none;
+	}	
+form fieldset label {
+	float: left;
+	width: 20%;
+	margin: 4px 0 5px 0;
 	color: #472839;
-	margin: 0;
-	padding: 0;
 	}
-
-.order label{
-/* 	float: left; */
-	width: 150px;
-	color: #472839;
-/* 	margin-bottom: 6px; */
-	}
-.order input, select{
-	width: 290px;
-	margin-bottom: 8px;
-	float: right;
-	}
-select, textarea{
-	margin-bottom: 8px;
-	}
-	
-/* .pickup label, .pickup input, .reach label, .reach input{ */
-/*   display:inline-block; */
-/*   	clear: both; */
-/*   	width: 50px; */
-	}
-/* .pickup label, .reach label{ */
-/*   width:50px; */
-/*   float: left; */
-/* 	} */
-	
-.order div{
-/* 	overflow: hidden; */
-	margin-bottom: 20px;
-	text-align: right;
-	}
-	
-/* .radio{ */
-/* 	clear: both; */
-/* 	margin: 0; */
-/* 	padding: 0; */
-/* 	width: auto; */
-	}
-
 form fieldset.radio ul li label {
 	display: inline;
 	float: none;
@@ -278,17 +235,22 @@ form fieldset.radio ul li {
 form fieldset.radio ul li:last-child {
 	margin: 0;
 	}
-	
-form fieldset{
-	border: none;
-	}	
-form fieldset.radio label {
-/* 	float: left; */
-	width: 240px;
-	margin: 4px 0 5px 0;
+.radio{
+	width: 557px;
 	}
-.order .radio input{
-	width: 240px;
+
+.form-text{
+	width: 290px;
+	}
+#order{
+	margin-left: 80px;
+	margin-top: 30px;
+	}
+#order_card{
+	margin-left: 230px;
+	}
+#insert_card{
+	margin-left: 0;
 	}
 	
 
