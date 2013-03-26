@@ -543,7 +543,7 @@ input#checkout{
 		display: none;
 		}
 	#order_card{
-		margin: 40px 0 10px 150px;
+		margin: 40px 0 10px 30px;
 		}
 	.form_input, fieldset{
 		width: 92%;
@@ -551,7 +551,7 @@ input#checkout{
 	#responsive{
 		visibility: visible;
 /* 		margin-left: 100px; */
-		width: 100%
+		width: 100%;
 		}
 	#delivery, #state_responsive, #occasion_responsive, #photo_responsive{
 		width: 200px;
@@ -567,7 +567,7 @@ input#checkout{
 		margin: 0;
 		}
 	fieldset{
-		width: 300px;
+		width: 500px;
 		}		
 	}	
 	
