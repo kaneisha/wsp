@@ -550,7 +550,7 @@ input#checkout{
 		}
 	#responsive{
 		visibility: visible;
-		margin-left: 100px;
+/* 		margin-left: 100px; */
 		width: 100%
 		}
 	#delivery, #state_responsive, #occasion_responsive, #photo_responsive{
