@@ -774,5 +774,9 @@ input#checkout{
 	.radio{
 		width: 200px;
 		}
+	#checkout{
+		margin-top: 80px;
+		margin-left: -160px;
+		}
 	}
 
