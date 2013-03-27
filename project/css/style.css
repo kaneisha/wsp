@@ -532,7 +532,7 @@ input#checkout{
 		}
 	}
 	
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
 	nav ul li{
 		display: inline;
 		}
@@ -546,15 +546,15 @@ input#checkout{
 		display: none;
 		}
 	#order_card{
-		margin: 40px 0 10px 30px;
+		margin: 40px 0 10px 190px;
 		}
-	.form_input, fieldset{
-		width: 92%;
+	.form_input, fieldset, .radio{
+		width: 400px;
 		}
 	#responsive{
 		visibility: visible;
-/* 		margin-left: 100px; */
-		width: 100%;
+		margin-left: 150px;
+		width: 400px;
 		}
 	#delivery, #state_responsive, #occasion_responsive, #photo_responsive{
 		width: 200px;
@@ -568,9 +568,10 @@ input#checkout{
 		}
 	form fieldset.radio ul{
 		margin: 0;
+		width: 400px;
 		}
-	fieldset{
-		width: 500px;
+	footer{
+		width: 556px;
 		}		
 	}	
 	
@@ -724,6 +725,12 @@ input#checkout{
 	#order_card{
 		margin: 30px 0 0 60px;
 		}
+	#details{
+		margin-left: 20px;
+		}
+	.form_input input{
+		width: 290px;
+		}
 	}
 
 @media screen and (max-width: 320px) {
@@ -782,10 +789,12 @@ input#checkout{
 		}
 	#checkout{
 		margin-top: 80px;
-		margin-left: -160px;
 		}
 	footer{
 		width: 320px;
+		}
+	#details{
+		margin-left: 0px;
 		}
 	}
 
