@@ -741,6 +741,9 @@ input#checkout{
 	#gallery h2{
 		margin-right: 30px;
 		}
+	.cards{
+		margin-right: 10px;
+		}
 	section#contact{
 		margin-left: 0;
 		}
