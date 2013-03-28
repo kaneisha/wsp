@@ -211,7 +211,8 @@ img#feature{
 
 /*----------------------Order----------------------------------------------- */
 #responsive{
-	visibility: hidden;
+/* 	visibility: hidden; */
+	display: none;
 	}
 form fieldset{
 	border: none;
@@ -552,7 +553,8 @@ input#checkout{
 		width: 400px;
 		}
 	#responsive{
-		visibility: visible;
+/* 		visibility: visible; */
+		display: block;
 		margin-left: 150px;
 		width: 400px;
 		}
