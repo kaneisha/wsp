@@ -672,7 +672,7 @@ input#checkout{
 	body{
 		width: 95%
 		}
-	#contact, section{ 
+	section{ 
 		width:75%;
 		margin: 0; 
 		}
@@ -687,7 +687,7 @@ input#checkout{
 		margin: 0 10px 20px 0;
 		}
 	#gallery h2{
-		margin-left: 5px;
+		margin-left: 45px;
 		}
 	#responsive{
 		margin-left: 0;
@@ -703,7 +703,20 @@ input#checkout{
 		}
 	.radio{
 		width: 300px;
-		}			
+		}
+	#order_card{
+		margin-left: 70px;
+		}
+	section#contact, #contact div, #contact form{
+		width: 350px;
+		}
+	section#contact{
+		margin-left: 90px;
+		}	
+	#contact h1{
+		margin: 0 0 20px 60px;
+		width: 300px;
+		}		
 }
 
 @media screen and (max-width: 413px) {
