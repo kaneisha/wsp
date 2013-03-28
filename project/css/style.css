@@ -448,6 +448,12 @@ input#checkout{
 	#order_card{
 		margin-left: 120px;
 		}
+	footer{
+		width: 715px;
+		}
+	#name_contact, #email_contact{
+		width: 290px;
+		}
 	}	
 	
 @media screen and (max-width: 755px) {
