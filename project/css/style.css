@@ -380,7 +380,6 @@ input#checkout{
 	img#feature, img, #contact_bird{
 		max-width: 100%;
 		height: auto;
-		width: auto\9; /* ie8 */
 		}
 	}
 	
@@ -465,7 +464,6 @@ input#checkout{
 	img#feature, img, #contact_bird{
 		max-width: 100%;
 		height: auto;
-		width: auto\9; /* ie8 */
 		}
 	#content{
 		margin: 50px 70px 20px 50px;
@@ -641,6 +639,7 @@ input#checkout{
 		}
 	#contact h1{
 		text-align: left;
+		}
 	}
 	
 @media screen and (max-width: 505px) {
@@ -652,7 +651,6 @@ input#checkout{
 	.form_input{
 		width: 92%;
 		}
-	
 	}
 	
 @media screen and (max-width: 471px) {
@@ -678,7 +676,6 @@ input#checkout{
 	img#feature, img, #contact_bird{
 		max-width: 100%;
 		height: auto;
-		width: auto\9; /* ie8 */
 		}
 	.cards{
 		margin: 0 10px 20px 0;
