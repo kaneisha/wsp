@@ -688,7 +688,22 @@ input#checkout{
 		}
 	#gallery h2{
 		margin-left: 5px;
-		}				
+		}
+	#responsive{
+		margin-left: 0;
+		}
+	footer{
+		width: 445px;
+		}
+	#email, #name{
+		width: 339px;
+		}
+	textarea{
+		width: 350px;
+		}
+	.radio{
+		width: 300px;
+		}			
 }
 
 @media screen and (max-width: 413px) {
