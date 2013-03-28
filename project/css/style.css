@@ -742,6 +742,18 @@ input#checkout{
 	.form_input input{
 		width: 290px;
 		}
+	footer{
+		width: 347px;
+		}
+	fieldset{
+		width: 350px;
+		}
+	#responsive{
+		margin: 0;
+		}
+	form fieldset.radio ul, .radio{
+		width: 300px;
+		}
 	}
 
 @media screen and (max-width: 321px) {
