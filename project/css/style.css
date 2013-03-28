@@ -746,10 +746,11 @@ input#checkout{
 		width: 347px;
 		}
 	fieldset{
-		width: 350px;
+		width: 335px;
 		}
 	#responsive{
 		margin: 0;
+		width: 350px;
 		}
 	form fieldset.radio ul, .radio{
 		width: 300px;
