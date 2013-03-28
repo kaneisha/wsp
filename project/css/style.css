@@ -679,6 +679,9 @@ input#checkout{
 	aside, #feature_rose{ 
 		display: none;
 		}
+	aside#hours{
+		margin-top: 30px;
+		}
 	img#feature, img, #contact_bird{
 		max-width: 100%;
 		height: auto;
