@@ -773,15 +773,23 @@ input#checkout{
 		}
 	#responsive{  
         padding: 10px 0px;
+        margin: 0;
+        width: 300px;
         }
-    textarea{
-    	width: 70%
-    	} 
+    #order_card{
+    	margin-left: 30px;
+    	}
     .form_input input{
-		width: 220px;
+		width: 250px;
 		}
-	#state, #occasion, #name, #email{
-		width: 220px;
+	#name, #email{
+		width: 250px;
+		}
+	#state, #occasion{
+		width: 223px;
+		}
+	#email_contact, #name_contact{
+		width: 290px;
 		}
 	fieldset{
 		width: 300px;
@@ -790,7 +798,7 @@ input#checkout{
 		width: 200px;
 		}
 	textarea{
-		width: 220px;
+		width: 270px;
 		}
 	.radio{
 		width: 200px;
@@ -799,10 +807,13 @@ input#checkout{
 		margin-top: 80px;
 		}
 	footer{
-		width: 320px;
+		width: 290px;
 		}
 	#details{
 		margin-left: 0px;
+		}
+	#contact h1{
+		margin: 0 0 20px 30px;
 		}
 	}
 
