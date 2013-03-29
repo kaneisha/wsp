@@ -231,6 +231,9 @@ img#feature{
 	float: right;
 	margin: -50px 90px 0 0;
 	}
+#social{
+	margin-right: 130px;
+	}
 
 /*----------------------Order----------------------------------------------- */
 #responsive{
@@ -476,6 +479,15 @@ input#checkout{
 		}
 	#name_contact, #email_contact{
 		width: 290px;
+		}
+	#details{
+		margin-left: 260px;
+		}
+	#detail{
+		margin-left: 120px;
+		}
+	#social{
+		margin-right: 20px;
 		}
 	}	
 /*------------------------- End Tablet ------------------------------*/
@@ -822,11 +834,18 @@ input#checkout{
 	#details{
 		margin-left: 20px;
 		}
+	#detail{
+		margin: 0;
+		}
 	.form_input input{
 		width: 290px;
 		}
 	footer{
 		width: 347px;
+		}
+	footer p{
+		font-size: 16px;
+		margin-left: -120px;
 		}
 	fieldset{
 		width: 335px;
@@ -840,6 +859,9 @@ input#checkout{
 		}
 	#login{
 		margin: -110px 10px 0 0;
+		}
+	#social{
+		margin: 20px -80px 0 0;
 		}
 	}
 
@@ -922,6 +944,26 @@ input#checkout{
 		}
 	footer{
 		width: 290px;
+		}
+	footer ul{
+		margin-left: -20px;
+		}
+	footer p{
+		margin-left: -60px;
+		}
+	#social{
+		margin: 30px -120px 0 0;
+		}
+	#fb{
+		height: 20px;
+		}
+	#twitter{
+		height: 20px;
+		margin-right: 160px;
+		}
+	#ig{
+		height: 20px;
+		margin-right: 130px;
 		}
 	#details{
 		margin-left: 0px;
