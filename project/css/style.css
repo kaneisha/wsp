@@ -71,6 +71,11 @@ nav .current{
 	text-indent: -20000px;
 /* 	margin-top: 30px; */
 	}
+#login{
+	float: right;
+	margin: -140px 50px 0 0;
+	color: #bfc94c;
+	}
 h1{
 	margin: 0
 	}	
@@ -146,6 +151,10 @@ aside#hours{
 	float: right;
 	background-color: transparent;
 	margin: 260px -50px 0 0;
+	}
+#name_contact, #email_contact{
+	width: 290px;
+	margin-bottom: 8px;
 	}
 /*--------------------Details-----------------------------*/
 #details{
@@ -437,7 +446,7 @@ input#checkout{
  		margin-right: -40px;
  		}
  	}	
- 
+/*----------------------- Tablet ---------------------------------*/
 @media screen and (max-width: 768px) {
 	#content{
 		margin: -770px 0 0 170px;
@@ -446,7 +455,7 @@ input#checkout{
 		margin: 8px -20px 10px 0;
 		}
 	#order_card{
-		margin-left: 120px;
+		margin-left: 250px;
 		}
 	footer{
 		width: 715px;
@@ -751,22 +760,45 @@ input#checkout{
 		margin-right: 20px;
 		}
 	#gallery h2{
+		clear: both;
+		overflow: hidden;
 		margin-right: 30px;
 		}
 	section#contact{
 		margin-left: 30px;
+		width: 100px;
 		}
 	#contact h1{
 		text-align: center;
+		margin-left: 0;
+		}
+	#contact div{
+		width: 300px;
+		}
+	#contact form{
+		width: 300px;
+		}
+	#email_contact, #name_contact, #number{
+		width: 285px;
+		margin-bottom: 8px;
 		}
 	aside#hours{
-		margin-top: 50px;
+		margin-top: -60px;
 		}
 	#order{
 		margin-left: 30px;
 		}
 	#order_card{
 		margin: 30px 0 0 60px;
+		}
+	input#name, input#email{
+		width: 290px;
+		}
+	textarea{
+		width: 300px;
+		}
+	#photo{
+		width: 350px;
 		}
 	#details{
 		margin-left: 20px;
@@ -786,6 +818,9 @@ input#checkout{
 		}
 	form fieldset.radio ul, .radio{
 		width: 300px;
+		}
+	#login{
+		margin: -160px 10px 0 0;
 		}
 	}
 
@@ -812,6 +847,13 @@ input#checkout{
 		}
 	section#contact{
 		margin-left: 0;
+		width: 300px;
+		}
+	#contact div{
+		width: 300px;
+		}
+	#contact form{
+		width: 300px;
 		}
 	aside#hours{
 		margin-top: 50px;
@@ -830,14 +872,15 @@ input#checkout{
     .form_input input{
 		width: 250px;
 		}
-	#name, #email{
+	input#name, input#email{
 		width: 250px;
 		}
 	#state, #occasion{
 		width: 223px;
 		}
-	#email_contact, #name_contact{
-		width: 290px;
+	#email_contact, #name_contact, #number{
+		width: 285px;
+		margin-bottom: 8px;
 		}
 	fieldset{
 		width: 300px;
@@ -861,7 +904,7 @@ input#checkout{
 		margin-left: 0px;
 		}
 	#contact h1{
-		margin: 0 0 20px 30px;
+		margin: 0 0 20px 0;
 		}
 	}
 
