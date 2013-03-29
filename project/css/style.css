@@ -733,6 +733,23 @@ input#checkout{
 	footer{
 		width: 445px;
 		}
+	footer p{
+		margin-left: -60px;
+		}
+	#social{
+		margin: 25px -70px 0 0;
+		}
+	#fb{
+		height: 25px;
+		}
+	#twitter{
+		height: 25px;
+		margin-right: 160px;
+		}
+	#ig{
+		height: 25px;
+		margin-right: 130px;
+		}
 	#email, #name{
 		width: 339px;
 		}
