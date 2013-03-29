@@ -61,7 +61,7 @@ nav .current{
 #blessedthoughts{
 /* 	margin: 0 auto; */
 	padding: 10px 0px;
-	height: 190px;
+/* 	height: 190px; */
 	}
 #blessedthoughts a{
 	background: url(../images/logo.png) no-repeat;
@@ -73,7 +73,7 @@ nav .current{
 	}
 #login{
 	float: right;
-	margin: -140px 50px 0 0;
+	margin: -90px 10px 0 0;
 	color: #bfc94c;
 	}
 h1{
@@ -750,19 +750,24 @@ input#checkout{
 		margin-top: 40px;
 		margin-left: 20px;
 		}
+	img#feature{
+		margin: 0 0 0 20px;
+		}
 	footer p{
 		font-size: 14px;
 		}
 	img#bird{
-		margin: 0 0 10px 0;
+		margin: -50px 0 10px 0;
+		}
+	#content h1{
+		margin-left: 60px;
 		}
 	.cards{
 		margin-right: 20px;
 		}
 	#gallery h2{
-		clear: both;
-		overflow: hidden;
 		margin-right: 30px;
+		margin-bottom: 10px;
 		}
 	section#contact{
 		margin-left: 30px;
@@ -783,7 +788,7 @@ input#checkout{
 		margin-bottom: 8px;
 		}
 	aside#hours{
-		margin-top: -60px;
+		margin-top: -20px;
 		}
 	#order{
 		margin-left: 30px;
@@ -833,11 +838,14 @@ input#checkout{
 		margin-top: 40px;
 		margin-left: 20px;
 		}
+	img#feature{
+		margin: 0 0 0 20px;
+		}
 	footer p{
 		font-size: 14px;
 		}
 	img#bird{
-		margin: 0 0 10px 0;
+		margin: -60px 0 10px 0;
 		}
 	#gallery h2{
 		margin-right: 30px;
@@ -856,7 +864,7 @@ input#checkout{
 		width: 300px;
 		}
 	aside#hours{
-		margin-top: 50px;
+		margin-top: -30px;
 		}
 	.content h2{
 		margin-top: 50px;
@@ -905,6 +913,9 @@ input#checkout{
 		}
 	#contact h1{
 		margin: 0 0 20px 0;
+		}
+	#login{
+		margin-top: -110px;
 		}
 	}
 
