@@ -649,6 +649,20 @@ input#checkout{
 		margin-left: 5px;
 		margin-right: 0;
 		}
+	#social{
+		margin: 25px -60px 0 0;
+		}
+	#fb{
+		height: 25px;
+		}
+	#twitter{
+		height: 25px;
+		margin-right: 160px;
+		}
+	#ig{
+		height: 25px;
+		margin-right: 130px;
+		}
 	}
 	
 @media screen and (max-width: 562px) {
@@ -969,7 +983,7 @@ input#checkout{
 		margin-left: -60px;
 		}
 	#social{
-		margin: 30px -120px 0 0;
+		margin: 30px -125px 0 0;
 		}
 	#fb{
 		height: 20px;
