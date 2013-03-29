@@ -751,7 +751,7 @@ input#checkout{
 		margin-left: 20px;
 		}
 	img#feature{
-		margin: 50px 0 0 20px;
+		margin: 30px 0 0 20px;
 		}
 	footer p{
 		font-size: 14px;
@@ -839,13 +839,13 @@ input#checkout{
 		margin-left: 20px;
 		}
 	img#feature{
-		margin: 0 0 0 20px;
+		margin: 20px 0 0 20px;
 		}
 	footer p{
 		font-size: 14px;
 		}
 	img#bird{
-		margin: -60px 0 10px 0;
+		margin: -30px 0 10px 0;
 		}
 	#gallery h2{
 		margin-right: 30px;
