@@ -682,6 +682,12 @@ input#checkout{
 	#gallery h2{
 		margin-left: 100px;
 		}
+	#detail{
+		margin-left: 60px;
+		}
+	#details{
+		margin-left: 130px;
+		}
 	}
 	
 @media screen and (max-width: 534px) {
@@ -717,7 +723,7 @@ input#checkout{
 		}
 	}
 	
-@media screen and (max-width: 483px) {
+@media screen and (max-width: 480px) {
 	body{
 		width: 95%
 		}
@@ -786,7 +792,13 @@ input#checkout{
 	#contact h1{
 		margin: 0 0 20px 60px;
 		width: 300px;
-		}		
+		}	
+	#detail{
+		margin-left: 60px;
+		}
+	#details{
+		margin-left: 90px;
+		}	
 }
 
 @media screen and (max-width: 413px) {
