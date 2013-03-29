@@ -757,7 +757,7 @@ input#checkout{
 		font-size: 14px;
 		}
 	img#bird{
-		margin: 20px 0 10px 0;
+		margin: 10px 0 10px 0;
 		}
 	#content h1{
 		margin-left: 60px;
@@ -864,7 +864,7 @@ input#checkout{
 		width: 300px;
 		}
 	aside#hours{
-		margin-top: -30px;
+		margin-top: -10px;
 		}
 	.content h2{
 		margin-top: 50px;
