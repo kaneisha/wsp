@@ -16,10 +16,24 @@ jQuery(document).ready(function () {
     jQuery('nav').meanmenu();
 });
 </script>
-		<link rel="stylesheet" href="
-<!--[if lt IE 9]>
-<script src="dist/html5shiv.js"></script>
-<![endif]-->
+<script>
+$('input[placeholder]').each(function(){  
+    var input = $(this);        
+    $(input).val(input.attr('placeholder'));
+                
+    $(input).focus(function(){
+        if (input.val() == input.attr('placeholder')) {
+           input.val('');
+        }
+    });
+        
+    $(input).blur(function(){
+       if (input.val() == '' || input.val() == input.attr('placeholder')) {
+           input.val(input.attr('placeholder'));
+       }
+    });
+});
+</script>
 	</head>
 	<body>
 		<header>
@@ -37,7 +51,7 @@ jQuery(document).ready(function () {
 			</ul>
 		</nav>
 		<aside id="card">
-			<img id="insert_card" src="images/card.png" />
+			<img id="insert_card" src="images/card.png" alt="Image of a greeting card showing you can personalize your cards" />
 			<p>Give your card some personality!
 			Make it say what you want.
 			Make it look how you envision it!</p>
@@ -179,9 +193,9 @@ jQuery(document).ready(function () {
 	
 	<fieldset class="radio">
 		<div>
-		<label for="delivery">How will your card be delivered?</label>
+		<label for="notifications">How will your card be delivered?</label>
 		<ul>
-			<li><label><input type="radio" name="notifications" />Pick-Up</label></li>
+			<li><label><input type="radio" name="notifications" id="notifications" />Pick-Up</label></li>
 			<li><label><input type="radio" name="notifications" />Mail</label></li>
 		</ul>
 		</div>
@@ -197,7 +211,7 @@ jQuery(document).ready(function () {
 	<fieldset>
 		<div class="form_input">
 		<label for="photo">Upload a Photo</label>
-		<input type="file" name="photo" value="" id="photo" />
+		<input type="file" name="photo" id="photo" />
 		</div>
 	</fieldset>
 
@@ -340,7 +354,7 @@ jQuery(document).ready(function () {
 	
 	<fieldset class="radio">
 		<div>
-		<label for="delivery">How will your card be delivered?</label>
+		<label for="notifications">How will your card be delivered?</label>
 		<ul>
 			<li><label><input type="radio" name="notifications" />Pick-Up</label></li>
 			<li><label><input type="radio" name="notifications" />Mail</label></li>
@@ -357,7 +371,7 @@ jQuery(document).ready(function () {
 	<fieldset>
 		<div class="form_input">
 		<label for="photo" id="photo_responsive">Upload a Photo</label>
-		<input type="file" name="photo" value="" id="photo" />
+		<input type="file" name="photo" id="photo" />
 		</div>
 	</fieldset>
 

@@ -157,7 +157,7 @@ aside#hours{
 	margin-bottom: 8px;
 	}
 /*--------------------Details-----------------------------*/
-#details{
+#detail{
 	text-align: center;
 	}	
 /* -----------------Images----------------------	 */
@@ -216,6 +216,20 @@ img#feature{
 #feature_rose{
 	max-width: 100%;
 	margin-left: 30px;
+	}
+#fb{
+	float: right;
+	margin: -50px 190px 0 0;
+	height: 32px;
+	}
+#twitter{
+	float: right;
+	margin: -50px 140px 0 0;
+	height: 32px;
+	}
+#ig{
+	float: right;
+	margin: -50px 90px 0 0;
 	}
 
 /*----------------------Order----------------------------------------------- */
