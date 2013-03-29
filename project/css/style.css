@@ -464,7 +464,7 @@ input#checkout{
  		}
  	}	
 /*----------------------- Tablet ---------------------------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
 	#content{
 		margin: -770px 0 0 170px;
 		}
@@ -767,7 +767,7 @@ input#checkout{
 		}
 	}
 /*-----------------------Mobile View---------------------------------*/
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 381px) {
 	header{
 		height: 130px;
 		}
